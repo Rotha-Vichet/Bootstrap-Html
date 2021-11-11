@@ -1,0 +1,276 @@
+
+header{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 30px; */
+    line-height: 100%;
+    color: rgb(83, 83, 83);
+}
+header >.nav-bar> .navbar{
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 30px; */
+    line-height: 100%;
+    /* color: rgb(235, 116, 69); */
+    position:fixed;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.offcanvas-body>.navbar-nav>.nav-item>.nav-link{
+    padding-bottom: 10px;
+}
+.carousel-inner>.carousel-item{
+    /* width: 800px; */
+    height: 620px;
+}
+.aboutme{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    justify-items: space-evenly;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 30px; */
+    line-height: 100%;
+    color: rgb(83, 83, 83);
+}
+.aboutme{
+    background: url(/img/Moonred\ \(3\).jpg);
+}
+.aboutme>.conataner>.card{
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    /* height: 270px; */
+    background-color: white;
+    border: 0.1ch rgb(235, 116, 69) solid;
+}
+
+.aboutme>h5{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: underline rgb(235, 116, 69);
+    color: rgb(182, 182, 182);
+}
+.aboutme>.conataner{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .aboutme>.conataner>.card>.row>.col-md-8>.card-body{
+    width: fit-content;
+    
+} */
+
+.techcontainer{
+    padding: 40px;
+    margin-left: 15px;
+    margin-top: 40px;
+    justify-items: space-evenly;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 30px; */
+    line-height: 100%;
+    color: rgb(83, 83, 83);
+    /* color: rgb(235, 116, 69); */
+}
+.techcontainer>h5{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-size: 30px;
+    text-decoration: underline rgb(235, 116, 69);
+}
+.techcontainer>.row>{
+    margin-left: 100px;
+}
+.techcontainer>.row>.col>.card{
+    width: 600px;
+    padding: 20px;
+    border: 0.1ch rgb(235, 116, 69) solid;
+   
+}
+.row>.col>.card>img{
+    align-self: center;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+.projectcontainer{
+    margin-top: 80px;
+    justify-items: space-evenly;
+    margin-bottom: 80px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 30px; */
+    line-height: 100%;
+    color: rgb(83, 83, 83);
+}
+.projectcontainer>h5{
+    margin: 40px;
+    margin-left: 60px;
+    font-size: 30px;
+    text-decoration: underline rgb(235, 116, 69);
+}
+.projectcontainer>.card{
+    margin-left: 25px;
+    width: 1300px;
+    border: 0.1ch rgb(235, 116, 69) solid;
+}
+.card:hover{
+    box-shadow: rgba(85, 85, 85, 0.685) -8px 8px 1px;
+    transform: translateX(0.5em);
+    transition-duration: 200ms;
+}
+.footie{
+    display: flex;
+    flex-direction:row;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 100%;
+    color: rgb(255, 239, 233);
+    /* padding-top: 60px; */
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    background-color: rgb(63, 55, 48);
+    padding-left: 100px;
+}
+.footie>h3{
+    padding-top: 10px;
+    align-self: center;
+}
+.footie>a{
+    align-self: center;
+    margin-left: 20px;
+    /* text-decoration: none; */
+    color: white;
+}
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin: 0;
+    /* margin-top: 40px; */
+    background-color: rgb(66, 66, 66);
+
+}
+.footercontainer>.formcontainer{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    color: rgb(185, 185, 185);
+    margin-left: 20px;
+    padding: 35px 40px 40px 40px;
+}
+
+.footercontainer>.form{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    margin: 50px 50px 0 50px;
+}
+.email{
+    margin-left: 10px;
+}
+.email>p{
+    /* margin: 10px; */
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.email>.foot-form>input{
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+}
+.foot-form>button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: fit-content + 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    border: none;
+    color: rgb(235, 235, 235);
+    background-color: rgb(41, 41, 41);
+}
+.foot-form>button:hover{
+    box-shadow: rgb(29, 29, 29) -5px 5px 1px;
+}
+.contactme{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    color: rgb(185, 185, 185);
+    margin-left: 20px;
+    
+    padding: 20px 40px 20px 40px;
+}
+.contactme>h3{
+    padding-left: 30px;
+}
+
+ul{
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+ul>li>.Contact{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+li>.Contact>img{
+    height: 28px;
+    width: 28px;
+    align-self: center;
+}
+li>.Contact>.foot{
+    align-self: center;
+    text-decoration: none;
+    padding-left: 10px;
+    color: rgb(185, 185, 185);
+}
+li>.Contact>.foot:hover{
+    text-decoration: underline rgb(185, 185, 185);
+}
+
+.copyright{
+    margin: 0;
+    width: 100%;
+    height: fit-content;
+    font-family: Gilroy;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    text-align: center;
+}

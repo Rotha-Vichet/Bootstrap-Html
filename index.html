@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style .css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>AboutMe</title>
+</head>
+<body>
+    <header>
+        <section class="nav-bar">
+            <nav class="navbar navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">About me</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">About me</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Hometown.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Tour</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Food</a>
+                        </li>
+                      </ul>
+                      <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </section>
+        <section class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/Group 54.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Poh Vichet Rotha</h5>
+                      <p>First year student at Kirirom Institute of Technology</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/UI.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A Beginner of UI</h5>
+                      <p>I am still a novice in User Interface field.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/Python.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Python</h5>
+                      <p>I am still not very fimilliar with python yet.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/HTML.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Front End</h5>
+                      <p>I can do simple website like this one.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/GIT.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>GIT</h5>
+                      <p>Still a Beginner.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </header>
+    <main>  
+        <div class="techcontainer">
+            <h5>Technologies</h5>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                  <div class="card">
+                    <img src="icon/user-interface_icon-icons.com_72178.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">User Interface</h5>
+                      <p class="card-text"> is the point at which human users interact with a computer, website or application.  The goal of effective UI is to make the user's experience easy and intuitive, requiring minimum effort on the user's part to receive maximum desired outcome.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="icon/python_18894.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Python</h5>
+                      <p class="card-text"> is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="icon/iconfinder-websitebuilder-4263525_117861.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Front End</h5>
+                      <p class="card-text">is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card">
+                    <img src="icon/file_type_git_icon_130581.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">GIT</h5>
+                      <p class="card-text">is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows (thousands of parallel branches running on different systems).</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="aboutme">
+            <h5>About me</h5>
+            <div class="conataner">
+                <div class="card mb-3"   >
+                    <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/photo_2021-11-08_10-31-05.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col">
+                        <div class="card-body">
+                        <h5 class="card-title">Hello! My name is Poh Vichet Rotha! </h5>
+                        <p class="card-text">Majoring in software engineering. I am a freshman in Kirirom Institute of
+                            Technology. I am a person with few words but if the situation requires it, I will speak
+                            up. My view of situations are mostly from another person's perspective and
+                            understanding so that I can see what that person is thinking and be flexible for the
+                            situation. I like problem solving situations because I can gain more experience and
+                            be able to meet new things. I have a high sense of responsibility and I observe my
+                            surroundings. I am 19 years old. I live in Kampong Cham town, Kampong Cham province, Cambodia.</p>
+                        </div>  
+                    </div>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="projectcontainer">
+            <h5>Projects</h5>
+            <div class="card mb-3">
+                <img src="img/Capture.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Design and Build a Shopsite</h5>
+                  <p class="card-text">I am currently creating a bookshop website. The prototype have been complete and posted on Figma community. The is also a mobile app design for this project but the real app building will be on hold for now.</p>
+                  
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Design a tourguide site</h5>
+                  <p class="card-text">This a website for my hometown tourguide. It is not complete yet. Since i making it raw without planning any prototype, it won't be use as an official. I think of recreate this one with a more careful planning.</p>
+                  
+                </div>
+                <img src="img/sencondpage.PNG" class="card-img-bottom" alt="...">
+              </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footie">
+            <h3>References</h3>
+            <a href="https://en.wikipedia.org/wiki/Kampong_Cham_Province">Kampong Cham-Wiki</a>
+            <a href="https://www.indeed.com/career-advice/career-development/user-interface#:~:text=The%20user%20interface%20(UI)%20is,to%20receive%20maximum%20desired%20outcome.">User Interface</a>
+            <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>
+            <a href="https://en.wikipedia.org/wiki/Front-end_web_development">Front end</a>
+            <a href="https://en.wikipedia.org/wiki/Git">GIT</a>
+            
+        </div>
+        <div class="footercontainer">
+            <div class="formcontainer">
+                <h3 class="container">Subcribe me</h3>
+                <p class="container">Get notify of what news from me!</p>
+                <div class="form">
+                    <div class="email">
+                        <p>Email</p>
+                        <form class="foot-form" action="input">
+                            <input class="inputbox" type="email" placeholder="Email">
+                        </form>
+                    </div>
+                    <form class="foot-form" action="submit">
+                        <button type="submit">Send me</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contactme">
+                <h3>Contact me</h3>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <div class="Contact">
+                                <img src="icon/pin_gps_location_find_map_search_icon-icons.com_59982.png" alt="">
+                                <a class="foot" href="https://www.google.com/maps/place/Kirirom+Institute+of+Technology/@11.3151731,104.0679855,15z/data=!4m5!3m4!1s0x0:0xadc8d363bd3d1c6c!8m2!3d11.3151731!4d104.0679855">Kirirom Institute of Technology, Kampong Speu province, Cambodia</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Contact">
+                            <img src="icon/phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.png" alt="">
+                            <p class="foot" >+855 88 356 1807</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Contact">
+                                <img src="icon/mail_email_message_electronic_online_web_icon-icons.com_59986.png" alt="">
+                                <a class="foot" href="pohvichetrotha20@kit.edu.kh">pohvichetrotha20@kit.edu.kh</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Contact">
+                                <img src="icon/Facebook_Rounded_Solid_icon-icons.com_61562.png" alt="">
+                                <a class="foot" href="https://www.facebook.com/rotha.vichet.3/">Dania Viswerh</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="Contact">
+                                <img src="icon/github_git_icon_145985.png" alt="">
+                                <a class="foot" href="https://github.com/Rotha-Vichet">Rotha Vichet</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <p class="copyright">All rights reserved ©copy2021</p>
+    </footer>
+    <!-- Java note -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
